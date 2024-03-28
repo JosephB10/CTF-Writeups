@@ -25,5 +25,7 @@ However whether on purpose or by accident the code for `decrypt.sh` has the dire
 - Then providing `decrypt.sh` with the right file will give the flag
   - `decrypt.sh files/451fd69b`
 
+<br><br>
+I wasted some time on this challenge debugging `decrypt.sh`. This was because I hard coded the directory path as `~/mytmp/home/ctf-player/drop-in/...`. Unfortunately using `~` doesn't work in this context. I'm not totally sure why, but once this didn't work I assumed it was something other then the directory pathing and I went off down a rabbit hole. 
 
 

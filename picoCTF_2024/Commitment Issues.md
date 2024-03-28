@@ -16,7 +16,8 @@ We are given a compressed cloned git repository.
   - We know it's a git repo because of the task description, but also because `ls -la` shows a `.git` file
 <br><br>
 - `git log` shows us the different commits that have been done to the repo
-  - It also provides us with each commit's ID 
+  - It also provides us with each commit's ID
+<br><br>
 - `git show 7d3aa557ff7ba7d116badaf5307761efb3622249` 
   - `7d3aa...` is the ID from the `git log` command
 <br><br>

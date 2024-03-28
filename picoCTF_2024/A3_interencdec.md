@@ -1,5 +1,7 @@
 # interencdec - Decrypting Strings
-![image](https://github.com/JosephB10/CTF-Writeups/assets/105746932/be6de807-4544-4ba3-b5b3-d57ffb2ab777)
+![image](https://github.com/JosephB10/CTF-Writeups/assets/105746932/b521c64b-ce9e-4ea8-8d43-9a68e43ec8d3)
+
+
 
 ## Hints
 - Engaging in various decoding processes is of utmost importance

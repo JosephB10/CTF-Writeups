@@ -6,7 +6,7 @@
 - Try mangling the request, maybe their server-side code doesn't handle malformed requests very well.
 ## Solution
 You are given a link to a website and told to mangle the inputs to the server in order to get the flag. 
-The first step is to open up burp suite and intercept a login request. You can fill the fields with anything.
+<br><br>The first step is to open up burp suite and intercept a login request. You can fill the fields with anything.
 I then sent the request to `repeater` in order to test different adjustments.
 <br><br>
 > ![image](https://github.com/JosephB10/CTF-Writeups/assets/105746932/7c404c8d-ff97-4385-b193-8972045d6860)

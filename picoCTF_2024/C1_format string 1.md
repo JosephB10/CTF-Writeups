@@ -36,3 +36,13 @@ print (newlist)
 
 This turns the raw memory output into readable strings. The flag was then visible.
 
+## Resources
+- https://lettieri.iet.unipi.it/hacking/format-strings.pdf
+  - Was provided in the hints and was useful
+- https://cs155.stanford.edu/papers/formatstring-1.2.pdf
+  - An older paper on format-string exploits
+  - When I had trouble understanding concepts in the first link, I used the second link to expand on it
+- https://www.youtube.com/watch?v=DhVRI33s-D0
+  - John Hammond solving a similar CTF
+  - This was useful to learn the pwntools commands I would need
+

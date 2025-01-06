@@ -14,7 +14,7 @@ The Solution.
 - Change the title of the .PNG file to `something.png.php` 
   - This satisfies the requirement to have .png in the name, but will execute as .php
 - Add `<?php echo system($_GET['cmd']); ?>` to the body of the message where the picture information would normally be
-  - This inputs php code that you can later call on for an RCE
+  - This inputs php code that you can later call on for a RCE
 - Then navigate to the upload page and add `.../uploads/something.png.php?cmd=   `
   - Now you can enter any command you want after cmd and the code in your picture will execute it
   - I knew we were in `/var/www/html/uploads` because of some errors that were thrown when I was exploring earlier
